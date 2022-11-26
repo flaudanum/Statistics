@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "model-selection"
+version = "0.0.0"
+description = "Experimenting technics for selecting a distribution that fits best a sample."
+authors = ["Frédéric LAUDARIN <frederic.laudarin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "model_selection"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.23.5"
+scipy = "^1.9.3"
+jupyterlab = "^3.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
